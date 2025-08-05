@@ -11,6 +11,10 @@
     ],
     "routes": [
         {
+            "src": "/images/(.*)",
+            "dest": "/images/$1"
+        },
+        {
             "src": "/static/(.*)",
             "dest": "/static/$1"
         },
@@ -21,6 +25,10 @@
         {
             "src": "/manifest.json",
             "dest": "/manifest.json"
+        },
+        {
+            "src": "/resume.pdf",
+            "dest": "/resume.pdf"
         },
         {
             "src": "/(.*)",
