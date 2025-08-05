@@ -17,22 +17,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Data Analysis Euro 2024',
-      description: 'Data analysis of the euro 2024 tournament',
+      title: 'Olympics Analysis',
+      description: 'olympics data analysis',
       image: '',
-      technologies: ['Python','Data Analysis','Data Visualization','Streamlit'],
-      github: 'https://github.com/ppedro20/Data-Analysis-Euro2024',
-      live: null,
-      date: 'july, 2025',
-      featured: false
-    },
-    {
-      id: 2,
-      title: 'Futsal-ISM',
-      description: 'Futsal management system',
-      image: '',
-      technologies: ['React','Tailwind','Supabase',],
-      github: 'https://github.com/ppedro20/futsal-ism',
+      technologies: ['Python','Streamlit','Plotly','Pandas'],
+      github: 'https://github.com/ppedro20/OlympicsDA',
       live: null,
       date: 'july, 2025',
       featured: false
