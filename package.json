@@ -2,7 +2,6 @@
     "name": "pedro-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://github.com/ppedro20/ppedro20.github.io",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
@@ -19,9 +18,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": [
@@ -44,7 +41,6 @@
     "devDependencies": {
         "tailwindcss": "^3.3.0",
         "autoprefixer": "^10.4.14",
-        "postcss": "^8.4.24",
-        "gh-pages": "^6.1.0"
+        "postcss": "^8.4.24"
     }
 }
